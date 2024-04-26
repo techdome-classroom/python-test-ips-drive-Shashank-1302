@@ -1,14 +1,6 @@
 def smallest_missing_positive_integer(nums: List[int]) -> int:
    def smallest_missing_positive_integer(nums):
-  """
-  Finds the smallest missing positive integer in a list of integers.
 
-  Args:
-      nums: A list of integers.
-
-  Returns:
-      The smallest missing positive integer in the list.
-  """
 
   if not nums:
     return 1
